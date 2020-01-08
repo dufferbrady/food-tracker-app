@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.Body {
+    background: rgb(197, 229, 255);
+}
+
+.Home_Container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Home_Block {
+    margin-top: 150px;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Greeting1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.Greeting2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.Greeting3 {
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.calorieGreen {
+    color: rgb(37, 179, 61);
+    font-weight: 700;
+}
+
+.calorieRed {
+    color: red;
+    font-weight: 700;
+}
