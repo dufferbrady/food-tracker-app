@@ -15,7 +15,6 @@ class SearchFood extends Component {
         this.setState({ loading: false });
         const queryParams = encodeURIComponent(food);
         console.log(queryParams);
-        // console.log(this.props.history)
         this.props.history.push({
             pathname: "/foodlist",
             search: `?food=${queryParams}`

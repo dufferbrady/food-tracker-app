@@ -3,7 +3,6 @@ import React from 'react';
 import classes from './Home.module.css';
 
 import SearchFood from '../../Containers/Home/SearchFood/SearchFood';
-import Header from '../Header/Header';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSmile } from '@fortawesome/free-solid-svg-icons';
@@ -11,7 +10,6 @@ import { faSmile } from '@fortawesome/free-solid-svg-icons';
 const Home = () => {
     return (
         <div className={classes.Body}>
-            <Header />
             <div className={classes.Home_Container}>
                 <div className={classes.Home_Block}>
                     <span className={classes.Greeting1}>Hello, Andy <FontAwesomeIcon style={{color: '#339AF0'}} icon={faSmile} /></span>
