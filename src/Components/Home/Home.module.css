@@ -5,6 +5,7 @@ body {
 
 .Body {
     background: rgb(197, 229, 255);
+    height: 100vh;
 }
 
 .Home_Container {

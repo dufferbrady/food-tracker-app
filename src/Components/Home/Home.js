@@ -2,7 +2,7 @@ import React from 'react';
 
 import classes from './Home.module.css';
 
-import SearchBar from '../../UI/SearchBar/SearchBar';
+import SearchFood from '../../Containers/Home/SearchFood/SearchFood';
 import Header from '../Header/Header';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -17,7 +17,7 @@ const Home = () => {
                     <span className={classes.Greeting1}>Hello, Andy <FontAwesomeIcon style={{color: '#339AF0'}} icon={faSmile} /></span>
                     <span className={classes.Greeting2}>Your daily calorie goal is <span className={classes.calorieGreen}>2,000</span></span>
                     <span className={classes.Greeting3}>So far today your calorie intake is <span className={classes.calorieRed}>0</span> calories</span>
-                    <SearchBar styling={{ 'width': '100%' }} />
+                    <SearchFood />
                 </div>
             </div>
         </div>
