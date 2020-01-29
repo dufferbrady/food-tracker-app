@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom'
 
 import Home from './Components/Home/Home';
+import FoodList from './Containers/Home/FoodList/FoodList';
 import Layout from './HOC/Layout/Layout';
 
 class App extends Component {
@@ -10,7 +11,7 @@ class App extends Component {
             <div>
                 <Layout>
                     <Switch>
-                        <Route path="/foodlist" render={() => ("We've rendered successfully")} />
+                        <Route path="/foodlist" component={FoodList} />
                         <Route path="/" exact component={Home} />
                     </Switch>
                 </Layout>
